@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meds",
+  "info": {
+    "singularName": "med",
+    "pluralName": "meds",
+    "displayName": "med"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media_name": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

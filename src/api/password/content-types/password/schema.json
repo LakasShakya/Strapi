@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "passwords",
+  "info": {
+    "singularName": "password",
+    "pluralName": "passwords",
+    "displayName": "password",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}
